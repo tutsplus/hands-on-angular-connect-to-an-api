@@ -1,0 +1,114 @@
+header {
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.35);
+  padding: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+
+  h1 {
+    flex-grow: 1; 
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  a {
+    align-self: center;
+    cursor: pointer;
+
+    &:hover, &:focus {
+      text-decoration: underline
+    }
+  }
+
+  span {
+    display: inline-block;
+    margin: 0 .5em;
+    line-height: 2.5em;
+  }
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  padding: .5em;
+  position: fixed;
+  width: 100%;
+
+  small {
+    float: right;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  tr {
+    &:nth-child(even) {
+      background-color: #eee;
+    }
+
+    &.no-products {
+      text-align: center;
+    }
+  }
+
+  th {
+    text-align: left;
+  }
+
+  td {
+    border: none;
+  }
+
+  th, td {
+    padding: .75em;
+  }
+}
+
+form {
+  margin-top: 1em;
+  padding: 1em;
+
+  label {
+    clear: left;
+    display: block;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width: 10em;
+  }
+
+  input {
+    border: 1px solid #000;
+    border-radius: 4px;
+    display: block;
+    float: left;
+    padding: .5em;
+  }
+
+  button {
+    display: block;
+    clear: both;
+  }
+
+  .progress {
+    height: 1em;
+    margin-top: .5em;
+    position: relative;
+    width: 10em;
+
+    span {
+      background: linear-gradient(to right, #b4ddb4 0%, #83c783 2em, #52b152 4em, #008a00 6em, #005700 8em, #004500 100%);
+      background-position: 0;
+      display: block;
+      left: 0;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 0;
+    }
+  }
+}

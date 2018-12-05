@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Shuriken",
+    "stock": 20,
+    "price": "$8"
+  },
+  {
+    "id": 2,
+    "name": "Katana",
+    "stock": 4,
+    "price": "$350"
+  },
+  {
+    "id": 3,
+    "name": "Smoke Bombs",
+    "stock": 17,
+    "price": "$35 (per 10)"
+  }
+]
